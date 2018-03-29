@@ -19,8 +19,8 @@ For more details, you can download the subject [here](https://raw.githubusercont
 Usage
 -----
 
->"./filler_vm -f [map] -p1 [player1.filler] -p2 [player2.filler]". You will find pre-made maps and players in the "res" directory. My champion, situated at the root of the project, is named "gavizet.filler".
+>"./filler_vm -f [path/map] -p1 [path/player1.filler] -p2 [path/player2.filler]". You will find pre-made maps and players in the "res" directory. My champion, situated at the root of the project, is named "gavizet.filler". You have to be in the "res" directory in order to launch the game.
 
 * Clone the repository
-* Run "make" command
-* For exemple ">./filler_vm -f maps/map01 -p1 gavizet.filler -p2 players/superjeannot.filler"
+* Run "make && cd res" command
+* For exemple "./filler_vm -f maps/map01 -p1 ../gavizet.filler -p2 players/superjeannot.filler"
